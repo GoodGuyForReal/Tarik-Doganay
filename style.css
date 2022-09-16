@@ -1,0 +1,430 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.318);
+    align-items: center;
+    padding: 0px 100px;
+    backdrop-filter: blur(4px);
+}
+
+
+.navlink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menuitems :hover {
+    color: rgb(179, 179, 179);
+    transition: 300ms;
+}
+
+.menubtn :hover {
+    color: rgb(0, 0, 0);
+    transition: 500ms;
+    background-color: rgb(255, 255, 255);
+}
+
+.navlinkbtn {
+    padding: 8px 16px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    padding-top: 105px;
+    background-image: url('assets/herobg.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_title {
+    font-size: 10vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.alt_txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 45px;
+}
+
+.hero_mid {
+    margin-top: 100px;
+}
+
+.sort_txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+}
+
+.sort_alt_txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 160%;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.social_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social_btns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.hero_bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#datetime {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#services {
+    height: max-content;
+    padding: 15vh 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.css {
+    padding: 50px;
+}
+
+.pro_title {
+    font-size: 13vw;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.services_body {
+    width: 100%;
+    padding: 5vh 0px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.services_txt {
+    font-size: 60px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.alttxtui {
+    padding-right: 50px;
+    padding-left: 40px;
+}
+
+#About {
+    height: max-content;
+    padding: 10vh 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About_body {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.about_title {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.about_txt {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    line-height: 170%;
+}
+
+
+#Project {
+    padding: 10vh 0px;
+    height: max-content;
+    align-items: center;
+}
+
+.project_body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pro_tt {
+    display: flex;
+    gap: 80px;
+    padding-left: 10px;
+}
+
+.pro_top {
+    text-align: center;
+}
+
+.outlineimg {
+    width: 52vw;
+    text-align: center;
+}
+
+
+.card_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+}
+
+.cardtop {
+    height: 400px;
+    background-image: url('assets/Ferrarinone.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.cardtop2 {
+    height: 400px;
+    background-image: url('assets/whatsappnone.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.cardtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.card_ds {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+
+.card_link {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+#Contact {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.Contact_body {
+    height: 55vh;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 75px;
+}
+
+.con_title {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+
+}
+
+.con_email {
+    color: rgb(0, 0, 0);
+
+}
+
+@media (max-width: 1200px) {
+
+    .hero_title {
+        font-size: 125px;
+        line-height: 90%;
+        margin-bottom: 50px;
+    }
+
+    .social_btns {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .social_body {
+        align-items: center;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .pptt {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .card_body {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .pro_title {
+        font-size: 13vw;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+    }
+
+    .outlineimg {
+        width: 52vw;
+        text-align: center;
+    }
+    
+
+}
+
+@media (max-width: 1000px) {
+    .progif {
+        display: none;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .about_cont {
+        text-align: center;
+    }
+
+    .pro_title {
+        font-size: 16vw;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+    }
+
+    .outlineimg {
+        width: 56vw;
+        text-align: center;
+    }
+
+
+    .Contact_body {
+        height: 55vh;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid rgb(255, 255, 255);
+        width: 85%;
+    }
+
+    .con_title {
+        font-size: 80px;
+        font-weight: 900;
+        margin-bottom: 50px;
+        color: rgb(255, 255, 255);
+    }
+
+    .con_email {
+        color: rgb(255, 255, 255);
+    }
+
+   
+}
+
+@media (max-width: 600px) {
+    .hero_title {
+        font-size: 80px;
+    }
+
+    #js {
+        padding: 0px;
+    }
+
+    .css {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 430px) {
+    .hero_title {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .con_title {
+        font-size: 60px;
+    }
+
+    #js {
+        padding: 0px;
+    }
+
+    .con_email {
+        font-size: 24px;
+    }
+
+    .services_txt {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .hero_title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+}
