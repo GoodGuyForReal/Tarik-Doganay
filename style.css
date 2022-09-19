@@ -381,6 +381,10 @@
         color: rgb(255, 255, 255);
     }
 
+
+    .About_body {
+        width: 80%; 
+    }
    
 }
 
@@ -395,6 +399,9 @@
 
     .css {
         padding: 0px;
+    }
+    .About_body {
+        width: 90%; 
     }
 }
 
@@ -420,6 +427,9 @@
         font-size: 40px;
     }
 
+    .About_body {
+        width: 90%; 
+    }
 }
 
 @media (max-width: 375px) {
